@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Education and Career Plan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="waveTextAnimated">
+            <span>L</span>
+            <span>I</span>
+            <span>F</span>
+            <span>E</span>
+            <span></span>
+            <span>P</span>
+            <span>L</span>
+            <span>A</span>
+            <span>N</span>
+            <span></span>
+            <span>G</span>
+            <span>E</span>
+            <span>N</span>
+            <span>E</span>
+            <span>R</span>
+            <span>A</span>
+            <span>T</span>
+            <span>O</span>
+            <span>R</span>
+        <form method="POST" action="/">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob" required>
+
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" id="hobbies" name="hobbies" required>
+
+            <label for="goals">Goals:</label>
+            <input type="text" id="goals" name="goals" required>
+
+            <label for="achievements">Achievements (if any):</label>
+            <input type="text" id="achievements" name="achievements">
+
+            <button type="submit">Submit</button>
+        </form>
+            </div>
+    </div>
+
+</body>
+</html>
